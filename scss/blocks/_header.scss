@@ -1,0 +1,23 @@
+@import '../global';
+.main-header{
+    padding-top: 40px;
+    background-color: orange;
+    .main-header_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .main-header_nav{
+            display: flex;
+            img{
+                margin-left: 20px;
+            }
+            .main-header_list{
+                display: flex;
+                .main-header_item{
+                    margin-left: 20px;
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header {
+  padding-top: 40px;
+  background-color: orange;
+}
+.main-header .main-header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-header .main-header_container .main-header_nav {
+  display: flex;
+}
+.main-header .main-header_container .main-header_nav img {
+  margin-left: 20px;
+}
+.main-header .main-header_container .main-header_nav .main-header_list {
+  display: flex;
+}
+.main-header .main-header_container .main-header_nav .main-header_list .main-header_item {
+  margin-left: 20px;
+}
+
+.hero {
+  padding-top: 40px;
+  background-color: orange;
+}
+.hero .hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .hero_container .hero_title {
+  width: 209px;
+  margin-top: 200px;
+  margin-left: 230px;
+}
+.hero .hero_container .hero_text {
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 230px;
+}
+.hero .hero_link1 {
+  padding: 10px 10px;
+  margin-left: 80px;
+  background-color: #00A0C1;
+  margin: 10px;
+  border-radius: 20px;
+  margin-left: 50%;
+}
+.hero .hero_link {
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-left: 80px;
+  background-color: #dae5e7;
+  border-radius: 20px;
+  margin-left: 50%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F9F9F9;
+}
+.service .service_container .service_block .service_title {
+  text-align: center;
+}
+.service .service_container .service_block .service_text {
+  padding-top: 30px;
+  text-align: center;
+  color: #737373;
+  opacity: 0.9;
+  width: 470px;
+  margin: 0 auto;
+}
+.service .service_container .service_title {
+  text-align: center;
+}
+.service .service_list {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  gap: 20px;
+}
+.service .service_list .service_item {
+  width: 250px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #c2baba;
+  border-radius: 20px;
+}
+.service .service_list .service_item1 {
+  background-color: #97e3f2;
+  width: 250px;
+  padding-top: 30px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 20px;
+}
+.service .service_list .service-text {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.terminal {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FAFAFA;
+}
+.terminal .terminal_container .terminal_title {
+  text-align: center;
+}
+.terminal .terminal_container .terminal_text {
+  margin: 0 auto;
+  width: 470px;
+  text-align: center;
+  padding-top: 20px;
+  color: #737373;
+  opacity: 0.8;
+}
+.terminal .terminal_list {
+  display: flex;
+  padding-top: 45px;
+  justify-content: space-evenly;
+}
+.terminal .terminal_list .terminal_item .terminal-title {
+  width: 135px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.terminal .terminal_list .terminal_item .terminal-text {
+  width: 160px;
+  text-align: center;
+  color: #737373;
+  opacity: 0.8;
+  padding-bottom: 20px;
+}
+
+.best {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F9F9F9;
+}
+.best .best-block .best-title {
+  text-align: center;
+}
+.best .best-block .best-text {
+  text-align: center;
+  width: 511px;
+  padding-top: 20px;
+  color: #737373;
+  margin: 0 auto;
+}
+.best .best_container {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.best .best_title1 {
+  width: 193px;
+  padding-bottom: 10px;
+}
+.best .best_text1 {
+  width: 333px;
+  color: #737373;
+  padding-bottom: 10px;
+}
+.best .best_title2 {
+  width: 277px;
+  padding-bottom: 10px;
+}
+.best .best_text2 {
+  color: #737373;
+  padding-bottom: 10px;
+}
+.best .best_title3 {
+  width: 277px;
+  padding-bottom: 10px;
+}
+.best .best_text3 {
+  color: #737373;
+}
+.best .best_title2::before {
+  content: url(/img/best1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.best .best_title3::before {
+  content: url(/img/best2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=main.css.map */
